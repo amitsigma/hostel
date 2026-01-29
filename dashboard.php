@@ -1,7 +1,7 @@
 <?php
 session_start();
-include('includes/config.php');
-include('includes/checklogin.php');
+include 'includes/config.php';
+include 'includes/checklogin.php';
 check_login();
 
 ?>
@@ -30,7 +30,7 @@ check_login();
 </head>
 
 <body>
-<?php include("includes/header.php");?>
+<?php include "includes/header.php";?>
 
 	<div class="ts-main-content">
 		<?php include("includes/sidebar.php");?>

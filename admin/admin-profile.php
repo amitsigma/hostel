@@ -1,7 +1,7 @@
 <?php
 session_start();
-include('includes/config.php');
-include('includes/checklogin.php');
+require_once 'includes/config.php';
+require_once 'includes/checklogin.php';
 check_login();
 //code for update email id
 if($_POST['update'])
